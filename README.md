@@ -20,8 +20,8 @@ optional arguments:
 ```
 
 ## TODO
-- [] Add complete README
-- [] Make pip package for easier installation and use
+- [ ] Add complete README
+- [ ] Make pip package for easier installation and use
 ## Contributing
 I started this project solely for educational purposes to familiarize myself with python and asynchronous programming
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
