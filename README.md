@@ -18,6 +18,12 @@ optional arguments:
                         View writeup in terminal
 
 ```
+### DEMO
+![event_demo](event_demo.gif)
+
+You can also make add a alias of ctft or add ctft to $PATH for easier usage
+
+![view_demo](view_demo.gif)
 
 ## TODO
 - [ ] Add complete README
