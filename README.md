@@ -1,6 +1,13 @@
 # ctft
 
-ctft is a python cli tool to save and view ctftime.org writeups in your terminal
+ctft is a python cli tool to save and view stylised ctftime.org writeups locally in your terminal.
+
+- **Search for writeups** by name or keyword
+- **View Stylised writeups** from saved files
+
+The project took inspiration from ![mzfr's lswriteups](https://github.com/mzfr/lswriteups) but I wanted to further the ease of access and reduce browser dependence.
+
+The tool currently scrapes only writeups on CTFTime.org and github READMEs. If you would like to add support for your site or your favourite author(with their permission ofcourse), feel free to contact me or make a pull request
 
 ## Usage
 
@@ -19,13 +26,20 @@ optional arguments:
 
 ```
 ### DEMO
-` python3 ctft.py -e asis`
+
+` python3 ctft.py -e asisctf`
 ![event_demo](event_demo.gif)
 
-You can also make add a alias of ctft or add ctft to $PATH for easier usage
+You can also make an alias of ctft or add ctft to $PATH for easier usage
 
 `ctft -v Web\ Warm-up`
 ![view_demo](view_demo.gif)
+
+## Installation 
+- Cone the repo:
+`git clone https://github.com/bajatin/ctft`
+Install dependencies:
+`pip install -r requirements.txt`
 
 ## TODO
 - [ ] Add complete README
