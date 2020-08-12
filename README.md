@@ -38,8 +38,11 @@ You can also make an alias of ctft or add ctft to $PATH for easier usage
 
 ## Installation 
 - Cone the repo:
+
 `git clone https://github.com/bajatin/ctft`
+
 Install dependencies:
+
 `pip install -r requirements.txt`
 
 ## Contributing
