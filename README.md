@@ -19,10 +19,12 @@ optional arguments:
 
 ```
 ### DEMO
+` python3 ctft.py -e asis`
 ![event_demo](event_demo.gif)
 
 You can also make add a alias of ctft or add ctft to $PATH for easier usage
 
+`ctft -v Web\ Warm-up`
 ![view_demo](view_demo.gif)
 
 ## TODO
