@@ -12,9 +12,6 @@ def formatter(soup):
 
     soup_html = soup.prettify()
 
-    #vmd doesn't support markdown of img so remove it
-    soup_html = re.sub("\!\[[a-zA-Z0-9]*\]","`IMAGE`",soup_html)
-
     #convert to markdown 
     h = html2text.HTML2Text()
     h.ignore_links = False
@@ -22,6 +19,9 @@ def formatter(soup):
 
     #Formatting to render code blocks 
     soup_markdwn = re.sub('[a-zA-Z0-9]*```[a-zA-Z0-9]*','\n```\n',soup_markdwn)
+    
+    #vmd doesn't support markdown of img so remove it
+    soup_markdwn = re.sub("\!\[[a-zA-Z0-9]*\]","`IMAGE`",soup_markdwn)
     
     #handle lists
     soup_markdwn = re.sub('\\\-','\n- ',soup_markdwn)
