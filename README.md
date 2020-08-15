@@ -43,6 +43,11 @@ You can also make an alias of ctft or add ctft to $PATH for easier usage
 ![view_demo](https://github.com/bajatin/README_gif_host/blob/master/view_demo.gif)
 
 ## Installation 
+
+`pip3 install ctft`
+
+### Manual Installation
+
 - Cone the repo:
 
 `git clone https://github.com/bajatin/ctft`
@@ -55,8 +60,6 @@ You can also make an alias of ctft or add ctft to $PATH for easier usage
 I started this project solely for educational purposes to familiarize myself with python and asynchronous programming.
 Pull requests or suggestions for imporvement are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## TODO
-- [ ] Upload pip package for easier install 
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
