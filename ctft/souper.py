@@ -43,17 +43,16 @@ user_agent = random.choice(user_agent_list)
 
 header = {'User-Agent':user_agent}
 
-# def souper(url):
-    # response = requests.get(url,headers=header)
-#     return BeautifulSoup(response.text,'html.parser')
 
+async def souper(url,session=None):
+    connector = aiohttp.TCPConnector(limit=5)
+    if not session:
+        async with aiohttp.ClientSession(connector=connector) as session:
+            async with session.get(url, headers=header,raise_for_status=True) as response:
+                html = await response.text()
+                return BeautifulSoup(html,'html.parser')
+    else:
+        async with session.get(url, headers=header,raise_for_status=True) as response:
+                html = await response.text()
+                return BeautifulSoup(html,'html.parser')
 
-async def souper(url):
-    async with aiohttp.ClientSession() as session:
-        async with session.get(url, headers=header) as response:
-            html = await response.text()
-            return BeautifulSoup(html,'html.parser')
-    
-# if __name__ == "__main__":
-#     loop = asyncio.get_event_loop()
-#     loop.run_until_complete(souper())
