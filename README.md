@@ -32,12 +32,12 @@ optional arguments:
 ### DEMO
 
 ` python3 ctft.py -e asisctf`
-![event_demo](event_demo.gif)
+![event_demo](https://github.com/bajatin/README_gif_host/blob/master/event_demo.gif)
 
 You can also make an alias of ctft or add ctft to $PATH for easier usage
 
 `ctft -v Web\ Warm-up`
-![view_demo](view_demo.gif)
+![view_demo](https://github.com/bajatin/README_gif_host/blob/master/view_demo.gif)
 
 ## Installation 
 - Cone the repo:
