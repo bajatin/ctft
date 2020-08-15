@@ -31,7 +31,7 @@ async def list_writeups(name):
         return  
     for row in rows[1:]:
         td = row.find_all('td')
-        st = td[0].text+","+(td[3].text+" writeups").rjust(50-len(td[0].text))
+        st = td[0].text+","+(td[3].text+" writeup(s)").rjust(50-len(td[0].text))
         names.append((st,td[0].a['href']))
     
     #Prompt to select tasks
