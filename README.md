@@ -29,6 +29,9 @@ optional arguments:
                         View writeup in terminal
 
 ```
+
+- The files are saved in your (home directory)/ctft_writeups
+
 ### DEMO
 
 ` python3 ctft.py -e asisctf`
@@ -42,16 +45,18 @@ You can also make an alias of ctft or add ctft to $PATH for easier usage
 ## Installation 
 - Cone the repo:
 
-      `git clone https://github.com/bajatin/ctft`
+`git clone https://github.com/bajatin/ctft`
 
-Install dependencies:
+- Install dependencies:
 
-      `pip install -r requirements.txt`
+`pip install -r requirements.txt`
 
 ## Contributing
 I started this project solely for educational purposes to familiarize myself with python and asynchronous programming.
 Pull requests or suggestions for imporvement are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
+## TODO
+- [ ]Upload pip package for easier install 
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
