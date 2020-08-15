@@ -4,8 +4,11 @@ ctft is a python cli tool to save and view stylised [ctftime.org](https://ctftim
 
 - **Search for writeups** by name or keyword
 - **View Stylised writeups** from saved files
+- Writeups are saved are as **markdown files** which can also be read as plaintext(although it won't make sense to read plaintext over formatted :grin: )
 
-The project took inspiration from ![mzfr's lswriteups](https://github.com/mzfr/lswriteups) but I wanted to further the ease of access and reduce browser dependence.
+VSCode users can also use markdown viewing extensions like [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) to view writeups
+
+The project took inspiration from [mzfr's lswriteups](https://github.com/mzfr/lswriteups) but I wanted to further the ease of access and reduce browser dependence.
 
 The tool currently scrapes only writeups on CTFTime.org and github READMEs.
 If you would like to add support for your site or your favourite author(with their permission ofcourse), feel free to contact me or make a pull request
@@ -39,11 +42,11 @@ You can also make an alias of ctft or add ctft to $PATH for easier usage
 ## Installation 
 - Cone the repo:
 
-`git clone https://github.com/bajatin/ctft`
+      `git clone https://github.com/bajatin/ctft`
 
 Install dependencies:
 
-`pip install -r requirements.txt`
+      `pip install -r requirements.txt`
 
 ## Contributing
 I started this project solely for educational purposes to familiarize myself with python and asynchronous programming.
