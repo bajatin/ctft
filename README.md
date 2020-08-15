@@ -56,7 +56,7 @@ I started this project solely for educational purposes to familiarize myself wit
 Pull requests or suggestions for imporvement are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## TODO
-- [ ]Upload pip package for easier install 
+- [ ] Upload pip package for easier install 
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
