@@ -4,7 +4,7 @@ ctft is a python cli tool to save and view stylised [ctftime.org](https://ctftim
 
 - **Search for writeups** by name or keyword
 - **View Stylised writeups** from saved files
-- Writeups are saved are as **markdown files** which can also be read as plaintext(although it won't make sense to read plaintext over formatted :grin: )
+- Writeups are saved are as **markdown files** which can also be read as plaintext(even though it doesn't make sense to read plaintext over formatted :unamused: )
 
 VSCode users can also use markdown viewing extensions like [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) to view writeups
 
