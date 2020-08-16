@@ -34,7 +34,7 @@ optional arguments:
 
 ### DEMO
 
-` python3 ctft.py -e asisctf`
+` python3 ctft -e asisctf`
 ![event_demo](https://github.com/bajatin/README_gif_host/blob/master/event_demo.gif)
 
 You can also make an alias of ctft or add ctft to $PATH for easier usage
