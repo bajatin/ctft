@@ -16,7 +16,7 @@ If you would like to add support for your site or your favourite author(with the
 ## Usage
 
 ```bash
-➜ python3 ctft.py -h
+➜ ctft -h
 usage: ctft [-h] (-e EVENT | -v TASK NAME)
 
 Get and view stylised ctftime writeups in your terminal
