@@ -5,7 +5,7 @@ import os
 import asyncio
 import re
 
-from get_writeup_url import list_writeups
+from ctft.get_writeup_url import list_writeups
 
 
 home = os.getenv("HOME")
