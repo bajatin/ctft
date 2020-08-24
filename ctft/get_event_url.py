@@ -1,4 +1,4 @@
-from souper import souper
+from ctft.souper import souper
 from bs4 import BeautifulSoup
 import re
 import inquirer

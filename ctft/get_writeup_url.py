@@ -1,9 +1,9 @@
 import re
-from souper import souper
+from ctft.souper import souper
 import inquirer
-from get_event_url import find_ctf_url
+from ctft.get_event_url import find_ctf_url
 from inquirer.themes import GreenPassion
-from ctftime_scrape import ctftime_scraper
+from ctft.ctftime_scrape import ctftime_scraper
 import asyncio
 import aiohttp
 import time
