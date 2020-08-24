@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-from souper import souper
+from ctft.souper import souper
 import html2text
 import re
 
