@@ -1,9 +1,9 @@
 from bs4 import BeautifulSoup
-from souper import souper
+from ctft.souper import souper
 import html2text
 import re
-from formatter import formatter
-from github_scrape import github_scraper
+from ctft.formatter import formatter
+from ctft.github_scrape import github_scraper
 import os
 
 
