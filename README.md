@@ -2,7 +2,7 @@
 
 ctft is a python cli tool to save and view stylised [ctftime.org](https://ctftime.org) writeups locally in your terminal.
 
-- **Search for writeups** by name or keyword
+- **Search for writeups** by CTF name.
 - **View Stylised writeups** from saved files
 - Writeups are saved are as **markdown files** which can also be read as plaintext(even though it doesn't make sense to read plaintext over formatted :unamused: )
 
