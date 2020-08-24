@@ -34,7 +34,8 @@ optional arguments:
 
 ### DEMO
 
-` python3 ctft -e asisctf`
+` python3 ctft -e asisctf` 
+(Only if you clone the directory, otherwise pip will put an executable in ~/.local/bin)
 ![event_demo](https://github.com/bajatin/README_gif_host/blob/master/event_demo.gif)
 
 You can also make an alias of ctft or add ctft to $PATH for easier usage
